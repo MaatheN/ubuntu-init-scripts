@@ -11,12 +11,13 @@ add-apt-repository -y ppa:webupd8team/java
 apt-get update && apt-get -y upgrade
 
 echo "--------------------------------------------------------------------"
+echo "Installation de curl"
 echo "Installation de git"
 echo "Installation de docker"
 echo "Installation de keymon (keyboard and mouse monitor for screencasts)"
 echo "Installation de shutter (Utilitaire de capture d'écran)"
 echo "Installation de remmina (Bureau à distance multi-service : VNC, RDP, etc)"
-apt-get -y install git lxc-docker keymon shutter remmina
+apt-get -y install curl git lxc-docker keymon shutter remmina
 
 echo "--------------------------------------------------------------------"
 echo "Installation de Sublime Text 3"
